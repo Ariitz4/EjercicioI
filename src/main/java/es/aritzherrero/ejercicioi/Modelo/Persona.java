@@ -62,10 +62,7 @@ public class Persona {
     }
 
 
-    /*
-     * Metodo HashCode y equals para saber cuando una persona es igual a otra.
-     * Dos personas son iguales cuando el Nombre,Apellidos y edad es el mismo.
-     */
+
     @Override
     public int hashCode() {
         return Objects.hash(edad, apellidos, nombre);

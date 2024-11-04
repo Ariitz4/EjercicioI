@@ -196,7 +196,7 @@ public class EjercicioI_Principal_Control implements Initializable{
 
         try {
             // Cargar el archivo FXML para la nueva persona
-            flwPanel = FXMLLoader.load(HelloApplication.class.getResource("fxml/ejercicioi_nuevapersona.fxml"));
+            flwPanel = FXMLLoader.load(HelloApplication.class.getResource("/fxml/ejercicioi_nuevapersona.fxml"));
             Scene scene = new Scene(flwPanel, 600, 300);
             escena.setScene(scene);
 

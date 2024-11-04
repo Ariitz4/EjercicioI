@@ -36,9 +36,9 @@ public class HelloApplication extends Application {
         ResourceBundle bundle = ResourceBundle.getBundle("messages");
       //  ResourceBundle bundle= ResourceBundle.getBundle("Idiomas/messages",new Locale(idioma));
         // Cargar el archivo FXML que contiene la definición de la interfaz gráfica
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/ejercicioi_principal.fxml"),bundle);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/fxml/ejercicioi_principal.fxml"),bundle);
         // Crear una nueva escena con el contenido cargado desde el archivo FXML
-        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+        Scene scene = new Scene(fxmlLoader.load());
 
         //Tamaño minimo de la ventana
         stage.setMinHeight(620);

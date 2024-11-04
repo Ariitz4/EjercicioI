@@ -18,7 +18,7 @@
 <FlowPane id="fondo" alignment="CENTER"
           columnHalignment="CENTER" maxHeight="-Infinity"
           maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-          orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" stylesheets="@css/aplicacion.css"
+          orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" stylesheets="@../css/aplicacion.css"
           xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
           fx:controller="es.aritzherrero.ejercicioi.Controlador.EjercicioI_Principal_Control">
     <children>
@@ -59,7 +59,7 @@
                         </ContextMenu>
                     </contextMenu>
                 </TableView>
-                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0" stylesheets="@css/aplicacion.css">
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0" stylesheets="@../css/aplicacion.css">
                     <children>
                         <Button id="boton" fx:id="btnAgregar" mnemonicParsing="false" onAction="#agregarPersona" text="%botonAgregar">
                             <tooltip>

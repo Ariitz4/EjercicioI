@@ -25,7 +25,7 @@ public class ConexionMariaDB {
         connConfig.setProperty("user", "root");
         connConfig.setProperty("password", "mypass");
         //la conexion en sí
-        conexion = DriverManager.getConnection("jdbc:mariadb://localhost:33066/personas?serverTimezone=Europe/Madrid", connConfig);
+        conexion = DriverManager.getConnection("jdbc:mysql://localhost:33066/personas?serverTimezone=Europe/Madrid", connConfig);
         conexion.setAutoCommit(true);
         DatabaseMetaData databaseMetaData = conexion.getMetaData();
         //debug
